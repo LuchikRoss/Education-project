@@ -1,2 +1,1 @@
-# Education-project
-web technology full stack
+full stack web co-working
