@@ -1,6 +1,9 @@
-body, body a{
+*{
+	font-family: Arial;
+}
+
+a{
     text-decoration: none;
-    font-family: Arial;
 }
 
 /*header*/
@@ -9,74 +12,85 @@ body, body a{
     padding-left: 98px;
 }
 
-.header-logo{
-    float: left;
-    font-size: 36px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
 }
 
-.header-logo-h4{
+.headerLogo{
+    display: inline-block;
+}
+
+.headerLogoH1{
     font-weight: bold;
+    font-size: 36px;
+    color: black;
 }
 
-.header-logo-h4-span{
-    font-weight: lighter;
+.headerLogoH1Span{
+    font-weight: normal;
+    display: block;
 }
 
-.header-menu-ul{
-    text-decoration: none;
+.headerMenu{
+    padding-right: 50px;
 }
 
-.header-menu, .header-menu-ul-li{
+.header-menu, .headerMenu__item{
     float: right;
     font-size: 18px;
 }
 
-.header-menu-ul-li{
-    margin: 50px 0;
+.headerMenu__item{
+    margin: 30px 0;
     padding: 2px;
 }
 
-.header-menu-ul-li a{
+.headerMenu__item a{
     color: black;
     padding: 13px 20px;
 }
 
-.header-menu-ul-li a:hover{
+.headerMenu__item a:hover{
     background: #B4B4B4;
 }
 
 /*main*/
 
-.main{
-    clear: both;
+hr{
+    margin-left: -100px;
 }
 
-.main-info-photo{
+.mainInfo{
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.mainInfoPhoto{
     padding: 25px 0;
 }
 
-.main-info-photo-img{
+.mainInfoPhoto__img{
     border-width: 2px;
     border-color: #B4B4B4;
     border-style: solid;
     height: 356px;
 }
 
-.main-info{
-    font-size: 30px;
-}
-
-.main-info-data-p{
+.mainInfoDataP{
     font-weight: bold;
 }
 
-.main-info-data-span{
+.mainInfoDataSpan{
     font-weight: lighter;
+    white-space: pre;
 }
 
 /*footer*/
 
-.footer-copyright{
+.footerCopyright{
     padding-top: 100px;
     margin: 0 auto;
     text-align: center;
