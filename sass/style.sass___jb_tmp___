@@ -11,6 +11,7 @@ $buttonMenuColor: black
 body
   overflow-x: hidden
 
+
 a
   text-decoration: none
 
@@ -30,6 +31,8 @@ a
 .headerIcons__fab
   margin-right: 15px
   color: $bodyColor
+  &:hover
+    color: blanchedalmond
 
 .wrapperBody
   width: 100%
@@ -235,5 +238,5 @@ a
   background-size: contain
   width: 90%
   background-repeat: no-repeat
-  margin: 20px
+  margin: 30px auto
 
