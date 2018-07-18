@@ -1,0 +1,239 @@
+$bodyColor: white
+$topShapeColor: #0054a4
+$button1Color: #f15b4f
+$buttonMenuColor: black
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  overflow-x: hidden
+
+a
+  text-decoration: none
+
+.deviderHeader
+  height: 30px
+  width: 100%
+  background-color: $topShapeColor
+
+.headerIcons
+  right: 210px
+  top: 4px
+  position: absolute
+  color: $bodyColor
+  &:hover
+    color: $buttonMenuColor
+
+.headerIcons__fab
+  margin-right: 15px
+  color: $bodyColor
+
+.wrapperBody
+  width: 100%
+  color: $bodyColor
+
+//HEADER
+
+.header
+  height: 200px
+
+.headerContent
+  left: 180px
+  height: 95px
+  width: 1200px
+  top: 55px
+  position: absolute
+
+.headerLogo
+  text-align: center
+
+.headerLogoShape
+  width: 253px
+  height: 168px
+  background-image: url(../img/headerLogoShape.png)
+  z-index: 2
+  position: absolute
+  margin-top: -55px
+  box-shadow: 3px -37px rgba(215, 215, 215, 0.25)
+
+.headerLogoPicture
+  width: 211px
+  height: 93px
+  background-image: url(../img/headerLogo.png)
+  z-index: 3
+  position: absolute
+  left: 31px
+  top: 20px
+
+.headerDonateNowShape
+  position: relative
+  right: 83px
+  top: -5px
+  width: 162px
+  height: 46px
+  background-color: $button1Color
+  border-radius: 20px
+  float: right
+  display: flex
+  &:hover
+    background-color: $topShapeColor
+    cursor: pointer
+
+.headerDonateNowCaption
+  width: 98px
+  height: 11px
+  background-image: url(../img/donateNow.png)
+  background-repeat: no-repeat
+  margin: auto 20px
+
+.headerDonateNowCaptionArrow
+  width: 7px
+  height: 12px
+  background-image: url(../img/donateNowArrow.png)
+  background-repeat: no-repeat
+  margin: auto
+  padding-right: 25px
+
+//HEADER MENU
+
+.headerMenuMain
+  position: relative
+  top: 5px
+  right: 80px
+  width: 700px
+  height: 46px
+  float: right
+  display: flex
+  vertical-align: center
+
+.hederMenuMain_item
+  margin: auto
+  display: flex
+
+.headerMenuMain__item_a
+  position: relative
+  height: 38px
+  padding: 12px
+  letter-spacing: -0.1px
+  font-family: 'Open Sans'
+  font-size: 15px
+  color: rgba(0, 0, 0, 0.48)
+  border-radius: 20px
+  &:hover
+    height: 38px
+    background-color: #eee
+    border: 1px solid #0054a4
+    padding: 11px
+    cursor: pointer
+    color: #0054a4
+
+.burgerMenu
+  display: none
+  position: relative
+  float: right
+  margin-right: 110px
+  margin-top: 7px
+  color: #0054a4
+  background-color: white
+  opacity: 0.8
+
+
+.burgerMenu:hover .burgerMenuItem ul
+  display: block
+  text-align: center
+
+.burgerMenuItem
+  background-color: aliceblue
+
+.burgerMenuItem ul
+  display: none
+  position: absolute
+  text-align: right
+  top: 35px
+  left: -40px
+  background-color: aliceblue
+  & li
+   display: block
+   margin-bottom: 20px
+
+//CONTENT
+
+.contentBigPhoto
+  height: 720px
+  background: url("../img/Layer-49.png") no-repeat
+  background-size: contain
+  margin-top: -73px
+  width: 100%
+
+.contentBigText
+  top: 140px
+  left: 200px
+  width: 30%
+  font-size: 60px
+  font-family: "Lobster"
+  color: rgb(0, 84, 164)
+  line-height: 1.2
+  position: relative
+
+.lernMoreShape
+  width: 300px
+  padding: 30px
+  display: inline-block
+  background: url("../img/learnMoreShape.png")
+  width: 172px
+  height: 46px
+  display: none
+
+.donateNowShape
+  width: 300px
+  padding: 30px
+  display: inline-block
+  background: url("../img/learnMoreShape.png")
+  width: 172px
+  height: 46px
+  display: none
+
+//CONTENT_BOXES
+
+.contentBoxes
+  display: flex
+  position: static
+  height: 150px
+  justify-content: center
+  margin-top: -150px
+
+.watchWilksStoryBox
+  background: url("../img/watchWilksStoryBox.png")
+  background-size: contain
+  width: 30%
+  background-repeat: no-repeat
+  margin: 10px
+  display: inline-block
+
+.voluunterBox
+  background: url("../img/voluunterBox.png")
+  background-size: contain
+  width: 30%
+  background-repeat: no-repeat
+  margin: 10px
+
+.donateNowBox
+  background: url("../img/donateNowBox.png")
+  background-size: contain
+  width: 30%
+  background-repeat: no-repeat
+  margin: 10px
+
+//ABOUT
+.about
+  display: flex
+  height: 500px
+  background: url("../img/about.png")
+  background-size: contain
+  width: 90%
+  background-repeat: no-repeat
+  margin: 20px
+

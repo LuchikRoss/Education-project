@@ -1,0 +1,90 @@
+@media only screen and ( max-width: 1350px ) {
+    .headerContent {
+        left: 20px;
+    }
+}
+
+@media only screen and ( max-width: 1200px ) {
+    .headerMenuMain{
+        display: none;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
+
+    .headerContent{
+        width: 100%;
+    }
+
+    .headerIcons{
+        right: 150px;
+    }
+
+    .contentBigText {
+        left: 100px;
+        top: 100px;
+        font-size: 50px;
+    }
+
+    .contentBoxes{
+        margin-top: -250px
+    }
+}
+
+@media only screen and ( max-width: 950px ) {
+
+    .headerMenuMain{
+        display: none;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
+
+    .headerContent{
+        width: 100%;
+    }
+
+    .headerIcons{
+        right: 150px;
+    }
+
+    .contentBigText {
+        top: 80px;
+        font-size: 40px;
+        left: 60px;
+    }
+
+    .contentBoxes{
+        margin-top: -350px
+    }
+}
+
+@media only screen and ( max-width: 650px ) {
+    .headerContent {
+        left: -20px;
+    }
+    .headerIcons{
+        right: 100px;
+    }
+    .headerDonateNowShape{
+        right: 20px;
+    }
+    .burgerMenu{
+        margin-right: 40px;
+    }
+    .contentBigText {
+        left: 30px;
+        top: 60px;
+        font-size: 30px;
+    }
+
+    .contentBoxes{
+        margin-top: -500px
+    }
+
+    .about{
+        margin-top: -40px
+    }
+}

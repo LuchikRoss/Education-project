@@ -1,0 +1,21 @@
+{
+  "name": "lesson-5",
+  "version": "1.0.0",
+  "description": "Home Work (lesson-5)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rostyslav Naryzhniak",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "bower": "^1.8.4",
+    "fontawesome": "^4.7.2",
+    "yarn": "^1.7.0"
+  }
+}
