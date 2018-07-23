@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font: 60px "Lobster";
+  color: #0054a4;
+  -webkit-transition: font-size .3s;
+  -moz-transition: font-size .3s;
+  -o-transition: font-size .3s;
+  transition: font-size .3s;
+}
+
+h2 {
+  font: 40px "Lobster";
+  color: black;
+}
+
+h3 {
+  font: 26px "Lobster";
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.open-sans { font-family: "OpenSans";}
+.fn-lobster { font-family: "Lobster";}
+.Galano-Grotesque { font-family: "GalanoGrotesque";}
+
+.fs13 { font-size: 13px;}
+.fs14 { font-size: 14px; line-height: 0.6;}
+.fs15 { font-size: 15px;}
+.fs16 { font-size: 16px; line-height: 1.5;}
+.fs18 { font-size: 18px; line-height: 1.5;}
+.fs22 { font-size: 22px; line-height: 1.2;}
+.fs24 { font-size: 24px; line-height: 1.2;}
+.fs32 { font-size: 32px; line-height: 1.2;}
+.fs40 { font-size: 40px; line-height: 1.2;}
+.fs60 { font-size: 60px; line-height: 1.2;}
+
+.pink { background-color: #f15b4f;}
+.blue { background-color: #0054a4;}
+.green { background-color: #6fbd2a;}
+.light-gray { background-color: #f1f1f1;}
+.white {background-color: white;}
+
+.cl-pink { color: #f15b4f;}
+.cl-blue { color: #0054a4;}
+.cl-green { color: #6fbd2a;}
+.cl-light-gray { color: #a8a8a8;}
+.cl-gray { color: #747474;}
+.cl-black { color: black;}
+.cl-white { color: white;}
+
+.section-padding { padding: 70px 0;}
+
+.section-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text-header {
+  margin-top: -1px;
+  margin-bottom: 0px;
+  color: #0054a4;
+}
+
+.text-header-top {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #0054a4;
+  background-color: #659a37;
+  width: 160px;
+  border: 0 none;
+  height: 4px;
+}
+.text-header-bottom {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #0054a4;
+  background-color: #659a37;
+  width: 320px;
+  border: 0 none;
+  height: 2px;
+}
+.text-description {
+  margin: 15px 0 40px 0;
+  color: gray;
+}
+.mainWrapper {
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  position: relative;
+  max-width: 1200px;
+  height: inherit;
+  margin: 0 auto;
+  padding: 0 15px;
+}

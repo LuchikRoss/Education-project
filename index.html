@@ -1,84 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Co-working Lesson-5</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Lesson-6 Co-working</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapperBody">
-        <header class="header">
-            <div class="deviderHeader">
-                <div class="headerIcons">
-                    <a href="#"><i class="fab fa-facebook-square headerIcons__fab"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square headerIcons__fab"></i></a>
-                    <a href="#"><i class="fab fa-instagram headerIcons__fab"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square headerIcons__fab"></i></a>
+
+<div class="mainWrapper">
+    <header>
+        <div class="social" id="social">
+            <div class="wrapper">
+                <div class="social__logo">
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="social__icons">
+                    <a href="#" style="color: white; font-size: 9pt; margin-right: 20px; font-family: OpenSans;">Jennifer's Journal</a>
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="headerContent">
-                <div class="headerLogo">
-                    <div class="headerLogoShape">
-                        <div class="headerLogoPicture"></div>
-                    </div>
-                </div>
-                <div class="headerDonateNowShape">
-                    <div class="headerDonateNowCaption"></div>
-                    <div class="headerDonateNowCaptionArrow"></div>
-                </div>
-                <nav class="headerMenu">
-                    <ul class="headerMenuMain">
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Home</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">About Us</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Calender</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">News</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Video</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Volunteer</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Sponser</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Donate</a></li>
-                        <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Contact</a></li>
+        </div>
+        <div class="wrapper">
+            <div class="navSection">
+                <nav>
+                    <ul id="horizontal">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Sponsors</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
-                    <div class="burgerMenu">
-                        <div class="menuIcon">
-                            <i class="fas fa-bars"></i>
-                        </div>
-                        <div class="burgerMenuItem">
-                            <ul>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Home</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">About Us</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Calender</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">News</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Video</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Volunteer</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Sponser</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Donate</a></li>
-                                <li class="headerMenuMain__item"><a class="headerMenuMain__item_a" href="#">Contact</a></li>
+                    <div class="burgerMenu cl-light-gray fs24">
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                        <div class="burgerMenu__items">
+                            <ul id="vertical">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Volunteer</a></li>
+                                <li><a href="#">Sponsors</a></li>
+                                <li><a href="#">Donate</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-            </div>
-        </header>
 
-        <main class="content">
-            <div class="contentBigPhoto">
-                <div class="contentBigText">You can Change a life Today!</div>
-                <div class="learnMoreShape"></div>
-                <div class="donateNowShape"></div>
+                <div class="button pink">
+                    <p>donate now <i class="fas fa-angle-right button__buttonPink"></i></p>
+                </div>
             </div>
-            <div class="contentBoxes">
-                <div class="watchWilksStoryBox"></div>
-                <div class="voluunterBox"></div>
-                <div class="donateNowBox"></div>
+        </div>
+
+        <div class="slider">
+            <div class="wrapper section-flex">
+                <div class="user-action">
+                    <div class="action-header"><h1>Help Us Put A Smile On A Child's Face</h1></div>
+                    <div class="action-description">
+                        Fighting Childhood Cancer for the Children and Families of Central Texas
+                    </div>
+                    <div class="action-button">
+                        <div class="button pink">learn more</div>
+                        <div class="button blue">donate now</div>
+                    </div>
+                </div>
             </div>
-            <div class="about"></div>
-        </main>
+        </div>
+    </header>
+    <div class="main">
+        <div class="wrapper">
+            <!------------------------Tabs section---------------->
+            <div class="mainHeader">
+                <div class="tabs green cl-green">
+                    <div class="tabs__iconSection">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                    <div class="tabs__textSection">
+                        <div class="tabs__headerSection">
+                            <div class="tabs__headerSection_headerText"><h3>Donate Now</h3></div>
+                            <div class="tabs__headerSection_arrowRight"><i class="fas fa-angle-right" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="tabs__description open-sans fs14" style="line-height: 18px">Your gift enables us to help hundreds of families.</div>
+                    </div>
+                </div>
+                <div class="tabs pink cl-pink">
+                    <div class="tabs__iconSection">
+                        <i class="fa fa-male" aria-hidden="true"></i>
+                    </div>
+                    <div class="tabs__textSection">
+                        <div class="tabs__headerSection">
+                            <div class="tabs__headerSection_headerText"><h3>Volunteer</h3></div>
+                            <div class="tabs__headerSection_arrowRight"><i class="fas fa-angle-right" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="tabs__description open-sans fs14" style="line-height: 18px">Join with us to serve families in need.</div>
+                    </div>
+                </div>
+                <div class="tabs blue cl-blue">
+                    <div class="tabs__iconSection">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="tabs__textSection">
+                        <div class="tabs__headerSection">
+                            <div class="tabs__headerSection_headerText"><h3>Watch Videos</h3></div>
+                            <div class="tabs__headerSection_arrowRight"><i class="fas fa-angle-right" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="tabs__description open-sans fs14" style="line-height: 18px">View the impact we have on people's lives.</div>
+                    </div>
+                </div>
+            </div>
+            <!-----------------MIN tabs section------------------->
+            <div class="mainHeaderMin items-flex">
+                <div class="tabs green cl-green section-flex">
+                    <div class="tabs-header-section items-flex">
+                        <div class="tabs-icon-section">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </div>
+                        <div class="header-text">
+                            <h3>Donate Now</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="arrow-right cl-white fs32"><i class="fas fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="tabs-description cl-white fs14 open-sans">Your gift enables us to help hundreds of families.</div>
+                </div>
+                <div class="tabs pink cl-pink section-flex">
+                    <div class="tabs-header-section items-flex">
+                        <div class="tabs-icon-section">
+                            <i class="fa fa-male" aria-hidden="true"></i>
+                        </div>
+                        <div class="header-text">
+                            <h3>Volunteer</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="arrow-right cl-white fs32"><i class="fas fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="tabs-description cl-white fs14 open-sans">Join with us to serve families in need.</div>
+                </div>
+                <div class="tabs blue cl-blue section-flex">
+                    <div class="tabs-header-section items-flex">
+                        <div class="tabs-icon-section">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="header-text">
+                            <h3>Watch Videos</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="arrow-right cl-white fs32"><i class="fas fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="tabs-description cl-white fs14 open-sans">View the impact we have on people's lives.</div>
+                </div>
+            </div>
+
+            <!----------------About Section----------------->
+            <div class="wrapper-about">
+                <div class="about-section section-padding section-flex" id="about">
+                    <div class="header-section">
+                        <div class="text-header"><h2>About Jennifer Wilks Foundation</h2></div>
+                        <div class="text-description open-sans fs16"><p>The Jennifer Wilks Foundation is a 501 c 3
+                            foundation.
+                            It was established to honor Jennifer by raising funds for the charities that helped put a smile
+                            on her face during her battle with AML.</p>
+                        </div>
+                    </div>
+                    <div class="items-section">
+                        <div class="items">
+                            <div class="items-img"><img src="img/about-img1.png" alt="about-img1"></div>
+                            <p class="fn-lobster fs22 cl-light-gray">Fighting Childhood Cancer</p>
+                            <p class="fn-lobster fs40 cl-blue">Since 2006</p>
+                        </div>
+                        <div class="items">
+                            <div class="items-img"><img src="img/about-img2.png" alt="about-img2"></div>
+                            <p class="fn-lobster fs22 cl-light-gray">Every Year We Grant</p>
+                            <p class="fn-lobster fs40 cl-blue">Make-A-Wishes</p>
+                        </div>
+                        <div class="items">
+                            <div class="items-img"><img src="img/about-img3.png" alt="about-img3"></div>
+                            <p class="fn-lobster fs22 cl-light-gray">Every Year We Serve Over</p>
+                            <p class="fn-lobster fs40 cl-blue">2000 Meals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-----------  Calendar section ---------------->
+        <div class="calendar-section section-padding light-gray" id="calendar">
+            <div class="wrapper section-flex ">
+                <div class="header-section">
+                    <div class="text-header"><h2>Upcoming Events</h2></div>
+                    <div class="text-description open-sans fs16"><p>See what we're up to!</p></div>
+                </div>
+                <div class="see-all" onclick="document.location.href='/Events.aspx'">
+                    <p class="Galano-Grotesque fs15 cl-black">see all events</p>
+                </div>
+                <div class="calendar-items-section items-flex" onclick="document.location.href='/Events.aspx'">
+                    <div class="calendar-items section-flex" style="margin: 10px auto 10px auto">
+                        <div class="img-title"><img src="img/calendar-img1.jpg" alt="calendar-img1.jpg"></div>
+                        <div class="img-logo"><img src="img/mini-logo.png" alt="mini-logo"></div>
+                        <div class="items-text-header fn-lobster fs24 cl-gray">
+                            <p>14th Annual JWF</p>
+                            <p>Golf Tournament</p>
+                        </div>
+                        <div class="items-text-description open-sans cl-light-gray fs16">Registration will open in early 2019,<br>MARK your calanders!</div>
+                        <div class="date open-sans fs15">
+                            <p class="cl-gray">April 26, 2019 @ <span class="cl-blue">Star Ranch Golf Club</span><br>&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="calendar-items section-flex" style="margin: 10px auto 10px auto" onclick="document.location.href='/Events.aspx'">
+                        <div class="img-title"><img src="img/calendar-img2.jpg" alt="calendar-img2.jpg"></div>
+                        <div class="img-logo"><img src="img/mini-logo.png" alt="mini-logo"></div>
+                        <div class="items-text-header fn-lobster fs24 cl-gray">
+                            <p>Wednesday Night</p>
+                            <p>Dinners</p>
+                        </div>
+                        <div class="items-text-description open-sans cl-light-gray fs16">Join us each Wednesday night as we serve dinner to the families on the Oncology unit.</div>
+                        <div class="date open-sans fs15">
+                            <p class="cl-gray">Wednesday Nights @ <span class="cl-blue">Dell Children's Hospital</span><br>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------- Video Section     --------->
+        <div class="wrapper">
+            <div class="video-section section-flex section-padding" id="video">
+                <div class="header-section">
+                    <div class="text-header"><h2>Videos</h2></div>
+                </div>
+                <div class="see-all">
+                    <p class="Galano-Grotesque fs15 cl-black">see more videos</p>
+                </div>
+                <div class="video-items-section items-flex">
+                    <div class="video-items">
+                        <div class="vimeo-video">
+                            <iframe src="https://player.vimeo.com/video/197232231" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                        </div>
+                        <p class="open-sans fs20" style="text-align: center;">Jennifer Wilks Foundation Christmas 2016</p>
+                    </div>
+                    <div class="video-items">
+                        <div class="vimeo-video">
+                            <iframe src="https://player.vimeo.com/video/148309252" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                        </div>
+                        <p class="open-sans fs20" style="text-align: center;">JWF-New Exam Room added to Dell Children's Hospital</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------News Section------------------->
+        <div class="calendar-section section-padding light-gray" id="news">
+            <div class="wrapper section-flex ">
+                <div class="header-section">
+                    <div class="text-header"><h2>Recent News</h2></div>
+                </div>
+                <div class="see-all" onclick="document.location.href='/News.aspx'">
+                    <p class="Galano-Grotesque fs15 cl-black">view all</p>
+                </div>
+                <div class="news-items-section items-flex">
+                    <div class="news-items section-flex" onclick="document.location.href='/News.aspx#News2'">
+                        <div class="img-title"><img src="img/news-img2.jpg" alt="news-img2.jpg"></div>
+                        <div class="wrapper-items section-flex">
+                            <div class="items-text-header fn-lobster fs24 cl-gray">
+                                <p>Faith and her</p>
+                                <p>Mom go to Hawai...</p>
+                            </div>
+                            <div class="news-button Galano-Grotesque green cl-white fs13" onclick="document.location.href='/News.aspx#News2'">read more</div>
+                        </div>
+                    </div>
+                    <div class="news-items section-flex" onclick="document.location.href='/News.aspx#News1'">
+                        <div class="img-title"><img src="img/news-img3.jpg" alt="news-img3.jpg"></div>
+                        <div class="wrapper-items section-flex">
+                            <div class="items-text-header fn-lobster fs24 cl-gray">
+                                <p>Make-a-Wish: Juliette</p>
+                                <p>goes to Disneyland</p>
+                            </div>
+                            <div class="news-button Galano-Grotesque pink cl-white fs13" onclick="document.location.href='/News.aspx#News1'">read more</div>
+                        </div>
+                    </div>
+                    <div class="news-items section-flex" onclick="document.location.href='/News.aspx#News4'">
+                        <div class="img-title"><img src="img/news-img1.jpg" alt="news-img1.jpg"></div>
+                        <div class="wrapper-items section-flex">
+                            <div class="items-text-header fn-lobster fs24 cl-gray">
+                                <p>Madison goes to</p>
+                                <p> Disney World...</p>
+                            </div>
+                            <div class="news-button Galano-Grotesque blue cl-white fs13" onclick="document.location.href='/News.aspx#News4'">read more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------Volunteer section------------------>
+        <div class="volunteer-section" id="volunteer">
+            <div class="volunteer-main-block section-flex white">
+                <p class="fn-lobster fs32 cl-black">Become a</p>
+                <p class="fn-lobster fs60 cl-black">Volunteer</p>
+                <p class="Galano-Grotesque fs18 cl-light-gray">Additional text will go here.</p>
+                <div class="volunteer-button Galano-Grotesque fs18 cl-blue" onclick="document.location.href='/Volunteer.aspx'">work with us</div>
+            </div>
+        </div>
+
+        <!--------------------Partners---------------------->
+        <div class="partners-section items-flex" id="partners">
+            <div class="wrapper-slider" id="slider">
+                <div class="scroll" id="scroll-left">
+                    <i class="fas fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="scroll" id="scroll-right">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="slider-visible" number="1">
+                    <div class="slider-items " id="a1" style="margin-left: 0px;"><a href="#" target="_blank"><img src="img/partner-img1.jpg" alt="Floor King"></a></div>
+                    <div class="slider-items " id="a2"><a href="#" target="_blank"><img src="img/partner-img2.jpg" alt="Napa"></a></div>
+                    <div class="slider-items " id="a3"><a href="#" target="_blank"><img src="img/partner-img3.jpg" alt="Sisk-Robb, Inc."></a></div>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="footer-section section-padding" id="footer">
+            <div class="wrapper">
+                <div class="footer cl-white items-flex">
+                    <div class="footer-logo footer-section-flex footer-margin">
+                        <div class="logo-img"><img src="img/footer-logo.png" alt="footer-logo"></div>
+                        <div class="social-icon fs24">
+                            <ul class="items-flex">
+                                <li><a href="#" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="site-links footer-section-flex footer-margin">
+                        <div class="block-header fn-lobster fs22">Site links</div>
+                        <div class="separator">
+                            <div class="thick"></div>
+                            <div class="thin"></div>
+                        </div>
+                        <div class="links open-sans fs14">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Volunteer</a></li>
+                                <li><a href="#">Sponsors</a></li>
+                                <li><a href="#">Donate</a></li>
+                                <li><a href="#">Journal</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-us footer-section-flex footer-margin">
+                        <div class="block-header fn-lobster fs22">Contact us</div>
+                        <div class="separator">
+                            <div class="thick"></div>
+                            <div class="thin"></div>
+                        </div>
+                        <div class="adress-section items-flex">
+                            <div class="adress-icon fs18 cl-white margin-r10">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div class="adress-info open-sans fs15">
+                                <p>Jennifer Wilks Foundation</p>
+                                <p>Attn: Tim Wilks</p>
+                                <p>P.O. Box 1822</p>
+                                <p>Cedar Park, Texas 78630-1822</p>
+                            </div>
+                        </div>
+                        <div class="phone-section items-flex">
+                            <div class="phone-icon fs18 cl-white margin-r10">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                            </div>
+                            <div class="phone-info open-sans fs15">
+                                <p>512-550-6163</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stay-in-touch">
+                        <div class="block-header fn-lobster fs22">Stay Informed</div>
+                        <div class="separator">
+                            <div class="thick"></div>
+                            <div class="thin"></div>
+                        </div>
+                        <div class="button-signup pink cl-white Galano-Grotesque fs16" onclick="window.open('#','_blank');">newsletter sign up</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright open-sans fs14">Copyright © JenniferWilks.org</div>
+    </footer>
+</div>
 </body>
 </html>
