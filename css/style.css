@@ -1382,6 +1382,8 @@ p.Galano-Grotesque {
     margin-right: 0; } }
 
 @media screen and (max-width: 420px) {
+  .social__logo img {
+    height: 100px; }
   .slider, .wrapper, .user-action, .action-description {
     font-family: OpenSans;
     font-weight: 200;
@@ -1423,6 +1425,8 @@ p.Galano-Grotesque {
     right: -50px; } }
 
 @media screen and (max-width: 360px) {
+  .social__logo img {
+    height: 90px; }
   .user-action {
     position: relative;
     width: 50%;
@@ -1473,8 +1477,6 @@ p.Galano-Grotesque {
     width: 300px; }
   .img-title img {
     width: 300px; }
-  .icons a {
-    margin-left: -10px; }
   .wrapper {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1487,6 +1489,8 @@ p.Galano-Grotesque {
     width: 360px; } }
 
 @media screen and (max-width: 320px) {
+  .social__logo img {
+    height: 80px; }
   .user-action {
     position: relative;
     width: 50%;
