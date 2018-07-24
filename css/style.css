@@ -950,7 +950,9 @@ p.Galano-Grotesque {
 @media screen and (max-width: 1600px) {
   .slider {
     max-width: 1600px;
-    height: 43vw; } }
+    height: 43vw; }
+  .action-description {
+    width: 70%; } }
 
 @media screen and (max-width: 1365px) {
   .slider-visible {
@@ -963,6 +965,8 @@ p.Galano-Grotesque {
   .partners-section .wrapper {
     padding-left: 0;
     padding-right: 0; }
+  .action-description {
+    width: 70%; }
   /*-------------- Video Section --------------------*/
   .video-items-section {
     width: 100%; }
@@ -996,6 +1000,8 @@ p.Galano-Grotesque {
     padding-bottom: 67px; }
   .action-header h1 {
     width: 50%; }
+  .action-description {
+    width: 70%; }
   /*---------------- main image section --------------------*/
   /*--------------------- Tabs section -----------------------*/
   .mainHeader {
@@ -1069,7 +1075,7 @@ p.Galano-Grotesque {
   .action-description {
     font-size: 16px;
     line-height: 1.5;
-    width: 90%; }
+    width: 70%; }
   /*---------------------------------------------*/
   .slider-visible {
     width: 510px; }
@@ -1087,6 +1093,8 @@ p.Galano-Grotesque {
   .user-action {
     padding-bottom: 0;
     width: 45%; }
+  .action-description {
+    width: 70%; }
   /*--------------------- main header ----------------*/
   .mainHeaderMin {
     margin-top: 50px;
