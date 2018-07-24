@@ -391,10 +391,12 @@ a:hover {
     justify-content: center;
     align-items: flex-start; }
     .slider .wrapper .user-action {
-      width: 418px;
+      width: 70%;
       padding-bottom: 100px; }
       .slider .wrapper .user-action .action-header {
         padding-top: 30px; }
+        .slider .wrapper .user-action .action-header h1 {
+          width: 70%; }
       .slider .wrapper .user-action .action-description {
         font: 1.125em/1.5 "OpenSans";
         color: black;
@@ -992,11 +994,14 @@ p.Galano-Grotesque {
     height: 43vw; }
   .user-action {
     padding-bottom: 67px; }
+  .action-header h1 {
+    width: 50%; }
   /*---------------- main image section --------------------*/
   /*--------------------- Tabs section -----------------------*/
   .mainHeader {
     display: none; }
   .mainHeaderMin {
+    margin-top: 25px;
     display: flex; }
   .tabs-description {
     text-align: center;
@@ -1123,18 +1128,17 @@ p.Galano-Grotesque {
 
 @media screen and (max-width: 768px) {
   .action-header h1 {
-    width: 80%;
+    width: 50%;
     padding-top: 90px;
     font-size: 40px;
     line-height: 1; }
   .slider {
     height: 59vw; }
   .action-description {
-    width: 70%;
+    width: 50%;
     margin: 5px 0 10px 0; }
   .action-button {
-    justify-content: center;
-    margin-bottom: 20px; }
+    justify-content: center; }
   /*--------------------- main header ----------------*/
   .mainHeaderMin {
     display: none; }
@@ -1245,7 +1249,7 @@ p.Galano-Grotesque {
 
 @media screen and (max-width: 700px) {
   .action-header h1 {
-    width: 80%;
+    width: 50%;
     padding-top: 90px;
     font-size: 30px;
     line-height: 1; }
@@ -1303,8 +1307,8 @@ p.Galano-Grotesque {
 
 @media screen and (max-width: 640px) {
   .action-header h1 {
-    width: 80%;
-    padding-top: 70px;
+    width: 50%;
+    padding-top: 90px;
     font-size: 25px;
     line-height: 0.9; }
   .action-description {
@@ -1336,8 +1340,8 @@ p.Galano-Grotesque {
 @media screen and (max-width: 600px) {
   .action-header h1 {
     width: 50%;
-    padding-top: 100px;
-    font-size: 30px;
+    padding-top: 110px;
+    font-size: 25px;
     line-height: 1; }
   .action-description {
     width: 50%;
@@ -1345,12 +1349,14 @@ p.Galano-Grotesque {
     line-height: 1; }
   h1 {
     font-size: 28px; }
-  .action-button {
-    position: absolute; }
   .action-button .button.pink {
     margin-bottom: 5px; } }
 
 @media screen and (max-width: 500px) {
+  .action-header h1 {
+    width: 50%;
+    padding-top: 130px;
+    font-size: 25px; }
   .social__logo img {
     height: 110px; }
   .navSection {
@@ -1368,14 +1374,20 @@ p.Galano-Grotesque {
     margin-right: 0; } }
 
 @media screen and (max-width: 420px) {
+  .slider, .wrapper, .user-action, .action-description {
+    font-family: OpenSans;
+    font-weight: 200;
+    font-size: 1em !important;
+    line-height: 0.9 !important; }
   .action-header h1 {
     width: 50%;
-    padding-top: 110px; }
+    padding-top: 110px;
+    font-size: 20px; }
   .action-description {
     width: 80%;
     font-size: 8px;
     line-height: 1; }
-  .menu-descr {
+  .menu-description {
     display: none; }
   .burgerMenu i {
     padding-top: 0; }
@@ -1403,20 +1415,27 @@ p.Galano-Grotesque {
     right: -50px; } }
 
 @media screen and (max-width: 360px) {
-  .action-header h1 {
+  .user-action {
+    position: relative;
     width: 50%;
-    padding-top: 150px; }
-  .action-description {
-    width: 80%;
-    font-size: 8px;
-    line-height: 1; }
+    margin-bottom: 50px; }
+  .action-header h1 {
+    width: 60%;
+    padding-top: 170px;
+    font-size: 20px; }
+  .slider, .wrapper, .user-action, .action-description {
+    font-family: OpenSans;
+    font-weight: 200;
+    font-size: 1em !important;
+    line-height: 0.9 !important; }
   h1 {
     font-size: 22px; }
   .burgerMenu {
     font-size: 20px; }
   .user-action {
     position: relative;
-    width: 50%; }
+    width: 50%;
+    margin-bottom: 55px; }
   .button {
     font-size: 11px;
     width: 110px;
@@ -1447,16 +1466,39 @@ p.Galano-Grotesque {
   .img-title img {
     width: 300px; }
   .icons a {
-    margin-left: -10px; } }
+    margin-left: -10px; }
+  .wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 360px; }
+  .mainWrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 360px; } }
 
 @media screen and (max-width: 320px) {
+  .user-action {
+    position: relative;
+    width: 50%;
+    margin-bottom: 50px; }
+    .user-action .action-description {
+      font-size: smaller; }
   .action-header h1 {
-    width: 60%;
-    padding-top: 150px; }
+    width: 50%;
+    padding-top: 100px;
+    font-size: 18px; }
   .action-description {
-    width: 60%;
-    font-size: 10px;
-    line-height: 1.2; }
+    font-size: 8px;
+    line-height: 1; }
+  .action-header h1 {
+    width: 50%;
+    margin-top: 140px;
+    font-size: 25px; }
+  .action-button {
+    width: 100%;
+    margin-bottom: 50px; }
   .wrapper {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
